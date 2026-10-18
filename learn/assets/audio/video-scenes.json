@@ -1,0 +1,266 @@
+[
+  {
+    "id": "kids",
+    "lang": "en",
+    "title": "Piggy bank",
+    "scenes": [
+      {
+        "art": "path-kids",
+        "text": "This path follows your own allowance: the coins in your pocket, the jars at home, and the piggy bank on the shelf. A parent reads along with you.",
+        "audio": "023be002f5aeb8092ba21713"
+      },
+      {
+        "art": "jars",
+        "text": "Your allowance comes in the morning. By afternoon it is gone. You cannot remember where it went.",
+        "audio": "31dda3d907e1221a0b621fbe"
+      },
+      {
+        "art": "jinnie",
+        "text": "Every peso of allowance has a job before it leaves your hand.",
+        "audio": "26421f1f763b308e7d5d8104"
+      }
+    ]
+  },
+  {
+    "id": "kids",
+    "lang": "tl",
+    "title": "Alkansya",
+    "scenes": [
+      {
+        "art": "path-kids",
+        "text": "Sinusundan ng path na ito ang sarili mong baon: ang barya sa bulsa mo, ang mga jar sa bahay, at ang alkansya sa estante. Kasama mong babasa ang isang magulang.",
+        "audio": "dc69ac53e0b5259de47371b3"
+      },
+      {
+        "art": "jars",
+        "text": "Dumarating ang baon mo sa umaga. Pagtanghali, wala na. Hindi mo maalala kung saan napunta.",
+        "audio": "f4a1deca8a89590f1fe06229"
+      },
+      {
+        "art": "jinnie",
+        "text": "May trabaho ang bawat piso ng baon mo bago ito umalis sa kamay mo.",
+        "audio": "9da8658e3bc069e0ddafe075"
+      }
+    ]
+  },
+  {
+    "id": "teens",
+    "lang": "en",
+    "title": "Allowance",
+    "scenes": [
+      {
+        "art": "path-teens",
+        "text": "Your allowance is the first budget you actually run. This path follows it from the canteen line to the messages that try to take it from you.",
+        "audio": "bbf65e43a2408b535307a066"
+      },
+      {
+        "art": "coins",
+        "text": "Every Monday you get ₱500 for the week. By Wednesday only ₱150 is left, and there are still three school days to go.",
+        "audio": "d44f414fd482194ce033e432"
+      },
+      {
+        "art": "jinnie",
+        "text": "Know your daily number before Monday, not by Wednesday.",
+        "audio": "05f983f917f8115bd2edc33d"
+      }
+    ]
+  },
+  {
+    "id": "teens",
+    "lang": "tl",
+    "title": "Baon",
+    "scenes": [
+      {
+        "art": "path-teens",
+        "text": "Ang baon mo ang unang budget na talagang hawak mo. Sinusundan ito ng path na ito mula sa pila sa canteen hanggang sa mga mensaheng sumusubok na agawin ito sa iyo.",
+        "audio": "96a93a3c39d8beb14c08b5de"
+      },
+      {
+        "art": "coins",
+        "text": "Tuwing Lunes, binibigyan ka ng ₱500 para sa isang linggo. Pagdating ng Miyerkules, ₱150 na lang ang natitira, at tatlong araw pa ng pasok.",
+        "audio": "2018f74a119106219d1bf957"
+      },
+      {
+        "art": "jinnie",
+        "text": "Alamin ang daily number mo bago mag-Lunes, hindi sa Miyerkules na lang.",
+        "audio": "d6a51fec98850a2f3b0a5690"
+      }
+    ]
+  },
+  {
+    "id": "first",
+    "lang": "en",
+    "title": "First money",
+    "scenes": [
+      {
+        "art": "path-first",
+        "text": "Everything in this path starts from a ₱20,000 salary in Metro Manila and follows it through a year. Your own numbers replace it wherever Jinnie has them.",
+        "audio": "a47f76962518a3784cc34d9f"
+      },
+      {
+        "art": "payslip",
+        "text": "Your first payslip says ₱20,000 at the top and ₱18,300 at the bottom. The difference did not disappear. It went to three places.",
+        "audio": "19160be1541db71634a8b396"
+      },
+      {
+        "art": "jinnie",
+        "text": "Net pay is the number your budget starts from. Not gross.",
+        "audio": "7b74a1444f07688276972cfd"
+      }
+    ]
+  },
+  {
+    "id": "first",
+    "lang": "tl",
+    "title": "Unang sweldo",
+    "scenes": [
+      {
+        "art": "path-first",
+        "text": "Lahat sa path na ito ay nagsisimula sa ₱20,000 na sweldo sa Metro Manila at sinusundan ito sa isang taon. Papalitan ito ng sarili mong numero kung saan mayroon si Jinnie.",
+        "audio": "b1725f45eb190f66fabf2841"
+      },
+      {
+        "art": "payslip",
+        "text": "Sa unang payslip mo, ₱20,000 ang nasa taas at ₱18,300 ang nasa baba. Hindi nawala ang difference. Napunta ito sa tatlong lugar.",
+        "audio": "869e3b2efb6240cd03cae280"
+      },
+      {
+        "art": "jinnie",
+        "text": "Net pay ang simula ng budget mo. Hindi gross.",
+        "audio": "006401569fc4f826e3f65dae"
+      }
+    ]
+  },
+  {
+    "id": "building",
+    "lang": "en",
+    "title": "Building",
+    "scenes": [
+      {
+        "art": "path-building",
+        "text": "These are the years debt, credit, and family plans compound the fastest, for better or worse. Everything here starts with the debt already carried, then builds outward to the account, the roof, and the family plan around it.",
+        "audio": "29bf654ee4a9d29bd92fb425"
+      },
+      {
+        "art": "card",
+        "text": "A credit card, an appliance installment, and money borrowed from a relative can feel like ten debts when none of them are written down.",
+        "audio": "376ba461d46cc6faafa6abf3"
+      },
+      {
+        "art": "jinnie",
+        "text": "A debt not on the list still grows. Write it down first.",
+        "audio": "9c3e6bbd17ed87bb1c3eb92a"
+      }
+    ]
+  },
+  {
+    "id": "building",
+    "lang": "tl",
+    "title": "Pagtatayo",
+    "scenes": [
+      {
+        "art": "path-building",
+        "text": "Ito ang mga taon na pinakamabilis kumapal ang utang, credit, at family plans, maganda man o hindi. Nagsisimula ang lahat dito sa utang na dala na, tapos lumalawak papunta sa account, sa bubong, at sa family plan sa paligid nito.",
+        "audio": "c0416463b1e069de8141d2d0"
+      },
+      {
+        "art": "card",
+        "text": "Parang sampung utang ang credit card, installment sa appliance store, at pera na hiniram sa kamag-anak, kapag wala pang nakasulat.",
+        "audio": "ef51b98069075e5650bd2b26"
+      },
+      {
+        "art": "jinnie",
+        "text": "Lumalaki pa rin ang utang na wala sa lista. Isulat muna ito.",
+        "audio": "0cbe154f12d2d7afe1e38713"
+      }
+    ]
+  },
+  {
+    "id": "securing",
+    "lang": "en",
+    "title": "Securing",
+    "scenes": [
+      {
+        "art": "path-securing",
+        "text": "Everything here starts from the pension the formula actually pays, then works backward to what fifteen years can still fix.",
+        "audio": "351b84bbbe127bd85aa3b301"
+      },
+      {
+        "art": "hourglass",
+        "text": "You are 45, earning ₱45,000 a month. Somewhere in your plans is a number labelled \"pension\". Most people have never checked what it actually is.",
+        "audio": "2c25d32f4d33a13248ce1879"
+      },
+      {
+        "art": "jinnie",
+        "text": "A pension you have not computed is a guess wearing a number.",
+        "audio": "850d856d9138ef7a074c859b"
+      }
+    ]
+  },
+  {
+    "id": "securing",
+    "lang": "tl",
+    "title": "Pagsisiguro",
+    "scenes": [
+      {
+        "art": "path-securing",
+        "text": "Nagsisimula ang lahat dito sa pension na talagang binabayad ng formula, tapos umaatras papunta sa kayang ayusin ng labinlimang taon.",
+        "audio": "fdafad3156440ac2499c6877"
+      },
+      {
+        "art": "hourglass",
+        "text": "45 ka, kumikita ng ₱45,000 kada buwan. May numerong \"pension\" sa mga plano mo. Karamihan, hindi pa talaga na-check kung magkano ito.",
+        "audio": "b125f91b7c5621a0b42674a5"
+      },
+      {
+        "art": "jinnie",
+        "text": "Ang pension na hindi mo pa nakwenta ay hula na may nakasuot na numero.",
+        "audio": "01f4bf0381917ea1336bc274"
+      }
+    ]
+  },
+  {
+    "id": "retired",
+    "lang": "en",
+    "title": "Retired",
+    "scenes": [
+      {
+        "art": "path-retired",
+        "text": "Every lesson here uses a monthly income of ₱5,000 to ₱15,000. That is pension, savings, and family support combined. Your own numbers replace it wherever Jinnie has them.",
+        "audio": "2c3c8f48aa7db34a013ef636"
+      },
+      {
+        "art": "calendar",
+        "text": "You turn sixty. You have stopped working. A neighbor says you must wait until sixty-five to claim.",
+        "audio": "0e1ae3ad099718d1a273852d"
+      },
+      {
+        "art": "jinnie",
+        "text": "Sixty is a choice, not a rule. You decide when to stop.",
+        "audio": "d1248ea2a5cd0e40908b761b"
+      }
+    ]
+  },
+  {
+    "id": "retired",
+    "lang": "tl",
+    "title": "Retirado",
+    "scenes": [
+      {
+        "art": "path-retired",
+        "text": "Gumagamit ang bawat aralin dito ng buwanang kita na ₱5,000 hanggang ₱15,000. Kasama na dito ang pension, savings, at tulong ng pamilya. Papalitan ito ng sarili ninyong numero po, kung saan mayroon si Jinnie.",
+        "audio": "1f0886efe8f7897d8c6637e0"
+      },
+      {
+        "art": "calendar",
+        "text": "Nag-sisenta na po kayo. Tumigil na kayo sa pagtatrabaho. Sabi ng kapitbahay, kailangan pa raw ninyong maghintay hanggang sesenta-singko.",
+        "audio": "8b3de8d56d67aa8894ac3f50"
+      },
+      {
+        "art": "jinnie",
+        "text": "Pagpipilian ang animnapu, hindi patakaran. Kayo po ang magpapasya kung kailan titigil.",
+        "audio": "52bfa2b9902acc665568313a"
+      }
+    ]
+  }
+]

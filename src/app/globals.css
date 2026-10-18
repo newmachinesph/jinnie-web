@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/*
+ * Jinnie web tokens. Mirrors packages/sdk/src/theme.ts in the app repo:
+ * a deep indigo night for surfaces that hold a total, one lamp-gold accent
+ * spent sparingly, green and red reserved for money in and money out.
+ */
+:root {
+  color-scheme: light;
+  --primary: #4338ca;
+  --primary-deep: #312e81;
+  --accent: #a16207;
+  --gold: #d4af37;
+  --night: #1e1b4b;
+  --on-night: #ffffff;
+  --on-night-muted: #b7b5d8;
+  --ink: #111827;
+  --muted: #6b7280;
+  --surface: #f7f7fb;
+  --card: #ffffff;
+  --line: #e4e4ed;
+  --positive: #047857;
+  --negative: #b91c1c;
+  --focus: #4338ca;
+
+  --tone-indigo-fg: #4338ca; --tone-indigo-bg: #eef2ff;
+  --tone-gold-fg: #a16207;   --tone-gold-bg: #fef3c7;
+  --tone-emerald-fg: #047857;--tone-emerald-bg: #ecfdf5;
+  --tone-blue-fg: #1d4ed8;   --tone-blue-bg: #eff6ff;
+  --tone-sky-fg: #0369a1;    --tone-sky-bg: #f0f9ff;
+  --tone-violet-fg: #6d28d9; --tone-violet-bg: #f5f3ff;
+  --tone-amber-fg: #b45309;  --tone-amber-bg: #fffbeb;
+  --tone-rose-fg: #be123c;   --tone-rose-bg: #fff1f2;
+  --tone-slate-fg: #475569;  --tone-slate-bg: #f1f5f9;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --primary: #a5b4fc;
+    --primary-deep: #c7d2fe;
+    --accent: #fbbf24;
+    --gold: #f2c86b;
+    --night: #181735;
+    --on-night: #eef0ff;
+    --on-night-muted: #9a9ac4;
+    --ink: #f3f4f6;
+    --muted: #9aa0ae;
+    --surface: #0b0b14;
+    --card: #15162a;
+    --line: #262740;
+    --positive: #34d399;
+    --negative: #f87171;
+    --focus: #a5b4fc;
+
+    --tone-indigo-fg: #a5b4fc; --tone-indigo-bg: #1e1b4b;
+    --tone-gold-fg: #fbbf24;   --tone-gold-bg: #3a2e0a;
+    --tone-emerald-fg: #34d399;--tone-emerald-bg: #063b2b;
+    --tone-blue-fg: #93c5fd;   --tone-blue-bg: #172554;
+    --tone-sky-fg: #7dd3fc;    --tone-sky-bg: #0c2a3a;
+    --tone-violet-fg: #c4b5fd; --tone-violet-bg: #2e1065;
+    --tone-amber-fg: #fcd34d;  --tone-amber-bg: #3b2306;
+    --tone-rose-fg: #fda4af;   --tone-rose-bg: #4c0519;
+    --tone-slate-fg: #cbd5e1;  --tone-slate-bg: #1e293b;
+  }
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-primary-deep: var(--primary-deep);
+  --color-accent: var(--accent);
+  --color-gold: var(--gold);
+  --color-night: var(--night);
+  --color-on-night: var(--on-night);
+  --color-on-night-muted: var(--on-night-muted);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-positive: var(--positive);
+  --color-negative: var(--negative);
+  --color-tone-fg: var(--tone-fg);
+  --color-tone-bg: var(--tone-bg);
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "SF Mono", Menlo, Consolas, monospace;
+
+  --radius-control: 4px;
+  --radius-card: 4px;
+  --radius-brand: 14px;
+}
+
+html, body { overflow-x: clip; }
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 { letter-spacing: -0.02em; overflow-wrap: anywhere; min-width: 0; }
+
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* Named tones, resolved per scheme. Put .tone-<name> on an element; its
+   children read text-tone-fg / bg-tone-bg. */
+.tone-indigo  { --tone-fg: var(--tone-indigo-fg);  --tone-bg: var(--tone-indigo-bg); }
+.tone-gold    { --tone-fg: var(--tone-gold-fg);    --tone-bg: var(--tone-gold-bg); }
+.tone-emerald { --tone-fg: var(--tone-emerald-fg); --tone-bg: var(--tone-emerald-bg); }
+.tone-blue    { --tone-fg: var(--tone-blue-fg);    --tone-bg: var(--tone-blue-bg); }
+.tone-sky     { --tone-fg: var(--tone-sky-fg);     --tone-bg: var(--tone-sky-bg); }
+.tone-violet  { --tone-fg: var(--tone-violet-fg);  --tone-bg: var(--tone-violet-bg); }
+.tone-amber   { --tone-fg: var(--tone-amber-fg);   --tone-bg: var(--tone-amber-bg); }
+.tone-rose    { --tone-fg: var(--tone-rose-fg);    --tone-bg: var(--tone-rose-bg); }
+.tone-slate   { --tone-fg: var(--tone-slate-fg);   --tone-bg: var(--tone-slate-bg); }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+::selection { background: var(--primary); color: #fff; }
+
+/* Long-form pages: legal, security, about. min-width: 0 keeps a wide <pre>
+   from stretching the grid column it sits in on narrow screens. */
+.prose { min-width: 0; }
+.prose h2 { font-size: 1.25rem; font-weight: 700; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+.prose h3 { font-size: 1.05rem; font-weight: 600; margin-top: 1.75rem; margin-bottom: 0.5rem; }
+.prose p, .prose li { line-height: 1.7; }
+.prose p { margin-bottom: 1rem; }
+.prose ul, .prose ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+.prose ul { list-style: disc; }
+.prose ol { list-style: decimal; }
+.prose li { margin-bottom: 0.35rem; }
+.prose a { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
+.prose code { font-family: var(--font-mono); font-size: 0.9em; background: var(--card); border: 1px solid var(--line); padding: 0.1em 0.35em; border-radius: 4px; }
+.prose pre { margin: 1rem 0 1.5rem; }
+.prose pre code { background: none; border: 0; padding: 0; font-size: 0.85rem; }
+.prose table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
+.prose th, .prose td { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.prose th { color: var(--muted); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}

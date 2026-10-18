@@ -1,0 +1,22 @@
+{
+  "name": "@jinnie-web/learn",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Canonical bilingual course content, activities, and media for Jinnie Learn, rendered by Next.js.",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node scripts/lint-content.mjs",
+    "manifest": "node scripts/asset-manifest.mjs",
+    "build": "node scripts/build.mjs",
+    "media:prepare": "node scripts/prepare-media.mjs && node scripts/render-media-art.mjs",
+    "media:narration": "python scripts/generate-narration.py",
+    "media:video": "python scripts/generate-videos.py"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "jsdom": "^30.0.1",
+    "sharp": "^0.35.4",
+    "tailwindcss": "^4.1.0"
+  }
+}

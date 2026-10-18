@@ -1,0 +1,98 @@
+{
+  "kids.en": {
+    "src": "assets/video/kids.en.mp4",
+    "captions": "assets/video/kids.en.vtt",
+    "poster": "assets/video/kids.en.poster.jpg",
+    "duration": 45.0,
+    "bytes": 418384,
+    "kind": "motion-illustration"
+  },
+  "kids.tl": {
+    "src": "assets/video/kids.tl.mp4",
+    "captions": "assets/video/kids.tl.vtt",
+    "poster": "assets/video/kids.tl.poster.jpg",
+    "duration": 45.0,
+    "bytes": 417438,
+    "kind": "motion-illustration"
+  },
+  "teens.en": {
+    "src": "assets/video/teens.en.mp4",
+    "captions": "assets/video/teens.en.vtt",
+    "poster": "assets/video/teens.en.poster.jpg",
+    "duration": 45.0,
+    "bytes": 423425,
+    "kind": "motion-illustration"
+  },
+  "teens.tl": {
+    "src": "assets/video/teens.tl.mp4",
+    "captions": "assets/video/teens.tl.vtt",
+    "poster": "assets/video/teens.tl.poster.jpg",
+    "duration": 45.0,
+    "bytes": 465205,
+    "kind": "motion-illustration"
+  },
+  "first.en": {
+    "src": "assets/video/first.en.mp4",
+    "captions": "assets/video/first.en.vtt",
+    "poster": "assets/video/first.en.poster.jpg",
+    "duration": 45.0,
+    "bytes": 445741,
+    "kind": "motion-illustration"
+  },
+  "first.tl": {
+    "src": "assets/video/first.tl.mp4",
+    "captions": "assets/video/first.tl.vtt",
+    "poster": "assets/video/first.tl.poster.jpg",
+    "duration": 45.0,
+    "bytes": 476797,
+    "kind": "motion-illustration"
+  },
+  "building.en": {
+    "src": "assets/video/building.en.mp4",
+    "captions": "assets/video/building.en.vtt",
+    "poster": "assets/video/building.en.poster.jpg",
+    "duration": 45.0,
+    "bytes": 479303,
+    "kind": "motion-illustration"
+  },
+  "building.tl": {
+    "src": "assets/video/building.tl.mp4",
+    "captions": "assets/video/building.tl.vtt",
+    "poster": "assets/video/building.tl.poster.jpg",
+    "duration": 45.0,
+    "bytes": 479482,
+    "kind": "motion-illustration"
+  },
+  "securing.en": {
+    "src": "assets/video/securing.en.mp4",
+    "captions": "assets/video/securing.en.vtt",
+    "poster": "assets/video/securing.en.poster.jpg",
+    "duration": 45.0,
+    "bytes": 424981,
+    "kind": "motion-illustration"
+  },
+  "securing.tl": {
+    "src": "assets/video/securing.tl.mp4",
+    "captions": "assets/video/securing.tl.vtt",
+    "poster": "assets/video/securing.tl.poster.jpg",
+    "duration": 45.0,
+    "bytes": 428079,
+    "kind": "motion-illustration"
+  },
+  "retired.en": {
+    "src": "assets/video/retired.en.mp4",
+    "captions": "assets/video/retired.en.vtt",
+    "poster": "assets/video/retired.en.poster.jpg",
+    "duration": 45.0,
+    "bytes": 463776,
+    "kind": "motion-illustration"
+  },
+  "retired.tl": {
+    "src": "assets/video/retired.tl.mp4",
+    "captions": "assets/video/retired.tl.vtt",
+    "poster": "assets/video/retired.tl.poster.jpg",
+    "duration": 45.0,
+    "bytes": 507410,
+    "kind": "motion-illustration"
+  }
+}
